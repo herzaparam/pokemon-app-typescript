@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Button } from "../components/Button";
 
 const Landing = () => {
   return (
-    <div>Landing</div>
-  )
-}
+    <div>
+      Landing
+      <Button>halo</Button>
+    </div>
+  );
+};
 
-export default Landing
+export default Landing;
